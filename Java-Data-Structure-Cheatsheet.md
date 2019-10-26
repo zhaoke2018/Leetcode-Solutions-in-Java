@@ -30,9 +30,18 @@ type[][] typeName = new type[typeLength1][typeLength2];
 * Optimized Search: O(log n)
 * Insertion: n/a
 
-### Array, ArrayList
+### Array vs. ArrayList
+1. Array size is fixed, but ArrayList size is dynamic.
+```java
+int[] arr = new int[10];
+ArrayList<Type> arrL = new ArrayList<Type>();
+```
+2. Array members are accessed using [], while ArrayList has a set of methods to access elements and modify them.
+3. Array can contain both primitive data types as well as objects of a class depending on the definition of the array. However, ArrayList only supports object entries, not the primitive data types. Since ArrayList can’t be created for primitive data types, members of ArrayList are always references to objects at different memory locations.References of the actual objects are stored at contiguous locations. In array, it depends whether the arrays is of primitive type or object type. In case of primitive types, actual values are contiguous locations, but in case of objects, allocation is similar to ArrayList.
 
 ### Arrays
+```Java
 Arrays.sort(a);//ascending, O(n log(n))
 Arrays.equals(a, a2);
 Arrays.toString();
+```
