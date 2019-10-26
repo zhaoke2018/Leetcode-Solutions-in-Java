@@ -1,7 +1,7 @@
 # Java Data Structure Cheatsheat
 
 ## Array
-
+[Ref](https://www.geeksforgeeks.org/array-vs-arraylist-in-java/)
 ### New
 ```Java
 //Declaration Syntax
